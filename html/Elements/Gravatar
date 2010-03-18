@@ -1,0 +1,6 @@
+% if( $UserObj->HasGravatar() ) {
+<div id="gravatar"><img alt="" src="<% $UserObj->GravatarUrl() %>"></div>
+% }
+<%ARGS>
+$UserObj => undef
+</%ARGS>

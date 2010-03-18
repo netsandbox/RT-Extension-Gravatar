@@ -1,0 +1,41 @@
+NAME
+    RT::Extension::Gravatar - Adds gravatar images to rt
+
+SYNOPSIS
+    This Plugin adds an gravatar image to the following pages:
+
+            - more about ...
+            - modify user
+            - preferences => about me
+
+FUNCTIONS
+    GravatarUrl
+      Return the gravatar image url of the user
+
+    HasGravatar
+      Return true if the user has an gravatar image
+
+INSTALLATION
+    Installation Instructions for RT-Extension-Gravatar:
+
+            1. perl Makefile.PL
+            2. make
+            3. make install
+            4. Add 'RT::Extension::Gravatar' to @Plugins in /opt/rt3/etc/RT_SiteConfig.pm
+            5. Clear mason cache: rm -rf /opt/rt3/var/mason_data/obj
+            6. Restart webserver
+
+AUTHOR
+    Christian Loos <chr.loos@googlemail.com>
+
+COPYRIGHT AND LICENCE
+    Copyright (C) 2010, Christian Loos.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    <http://bestpractical.com/rt/>
+
+    <http://gravatar.com/>
+

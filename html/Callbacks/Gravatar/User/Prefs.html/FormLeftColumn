@@ -1,0 +1,6 @@
+<&| /Widgets/TitleBox, title => loc('Gravatar') &>
+<& /Elements/Gravatar, UserObj => $UserObj &>
+</&>
+<%ARGS>
+$UserObj => undef
+</%ARGS>
