@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 require RT::User;
 package RT::User;
@@ -80,7 +80,7 @@ Installation Instructions for RT-Extension-Gravatar:
 
 =head1 AUTHOR
 
-Christian Loos <chr.loos@googlemail.com>
+Christian Loos <cloos@netsandbox.de>
 
 =head1 COPYRIGHT AND LICENCE
  
