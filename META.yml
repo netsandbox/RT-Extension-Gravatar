@@ -1,7 +1,7 @@
 ---
 abstract: 'Adds gravatar images to rt'
 author:
-  - 'Christian Loos <chr.loos@googlemail.com>'
+  - 'Christian Loos <cloos@netsandbox.de>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
 configure_requires:
@@ -17,8 +17,10 @@ no_index:
   directory:
     - html
     - inc
+  package:
+    - RT::User
 requires:
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
