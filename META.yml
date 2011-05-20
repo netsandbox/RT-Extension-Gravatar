@@ -20,6 +20,7 @@ no_index:
   package:
     - RT::User
 requires:
+  Crypt::SSLeay: 0
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
