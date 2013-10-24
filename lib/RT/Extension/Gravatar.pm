@@ -31,7 +31,7 @@ sub HasGravatar {
     my $url = $self->GravatarUrl;
     return 0 unless $url;
 
-    $url .= "?default=404";
+    $url .= "?d=404";
 
     my $ua = LWP::UserAgent->new;
     my $response = $ua->get($url);
