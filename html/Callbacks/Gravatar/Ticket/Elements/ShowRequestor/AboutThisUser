@@ -1,4 +1,6 @@
+<div id="gravatar">
 <& /Elements/Gravatar, UserObj => $requestor &>
+</div>
 <%ARGS>
 $requestor => undef
 </%ARGS>
