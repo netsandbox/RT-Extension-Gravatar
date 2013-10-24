@@ -55,6 +55,8 @@ This Plugin adds an gravatar image to the following places:
 
 =item About me (Preferences)
 
+=item User Summary
+
 =back
 
 =head1 INSTALLATION

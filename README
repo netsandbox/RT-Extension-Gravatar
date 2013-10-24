@@ -7,6 +7,7 @@ DESCRIPTION
     More about the requestors widget
     Modify user page
     About me (Preferences)
+    User Summary
 
 INSTALLATION
     perl Makefile.PL
