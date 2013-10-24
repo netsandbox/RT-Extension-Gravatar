@@ -29,6 +29,8 @@ sub HasGravatar {
     my $self = shift;
 
     my $url = $self->GravatarUrl;
+    return 0 unless $url;
+
     $url .= "?default=404";
 
     my $ua = LWP::UserAgent->new;
