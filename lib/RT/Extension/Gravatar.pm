@@ -14,27 +14,27 @@ use LWP::UserAgent;
 
 sub GravatarUrl {
     my $self = shift;
-    my $email = $self->EmailAddress;
-    return undef unless defined $email && length $email;
+
+    my $email = $self->EmailAddress || '';
+    return unless length $email;
     
-    my $gravatar_base_url;
-    if ( defined $ENV{HTTPS} and $ENV{'HTTPS'} eq 'on' ) {
-        $gravatar_base_url = 'https://secure.gravatar.com/avatar/';
-    } else {
-        $gravatar_base_url = 'http://gravatar.com/avatar/';
-    }
+    my $url = ($ENV{'HTTPS'}||'') eq 'on'
+        ? 'https://secure.gravatar.com/avatar/'
+        : 'http://gravatar.com/avatar/';
     
-    return $gravatar_base_url . md5_hex( lc $email );
+    return $url . md5_hex(lc $email);
 }
 
 sub HasGravatar {
     my $self = shift;
-    my $ua = LWP::UserAgent->new;
-    my $url = $self->GravatarUrl();
+
+    my $url = $self->GravatarUrl;
     $url .= "?default=404";
-    my $response = $ua->get( $url );
+
+    my $ua = LWP::UserAgent->new;
+    my $response = $ua->get($url);
     
-    return ! $response->is_error( 404 );
+    return not $response->is_error(404);
 }
 
 =head1 NAME
