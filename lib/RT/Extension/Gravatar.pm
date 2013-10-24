@@ -36,7 +36,7 @@ sub HasGravatar {
     my $ua = LWP::UserAgent->new;
     my $response = $ua->get($url);
     
-    return not $response->is_error(404);
+    return $response->is_success;
 }
 
 =head1 NAME
