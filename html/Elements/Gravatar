@@ -1,6 +1,4 @@
-% if( $UserObj->HasGravatar() ) {
 <img alt="" src="<% $UserObj->GravatarUrl() %>">
-% }
 <%ARGS>
 $UserObj => undef
 </%ARGS>

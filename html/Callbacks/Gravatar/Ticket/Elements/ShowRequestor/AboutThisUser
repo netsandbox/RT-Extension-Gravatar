@@ -1,6 +1,9 @@
 <div id="gravatar" style="margin-top: 1em;">
 <& /Elements/Gravatar, UserObj => $requestor &>
 </div>
+<%INIT>
+return unless $requestor->HasGravatar;
+</%INIT>
 <%ARGS>
 $requestor => undef
 </%ARGS>
