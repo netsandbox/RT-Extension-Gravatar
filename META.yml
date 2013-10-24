@@ -22,7 +22,10 @@ no_index:
     - RT::User
 requires:
   Crypt::SSLeay: 0
+  Digest::MD5: 0
+  LWP::UserAgent: 0
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
+  repository: https://github.com/cloos/RT-Extension-Gravatar
 version: 0.03
