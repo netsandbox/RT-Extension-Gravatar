@@ -6,11 +6,10 @@ use warnings;
 
 our $VERSION = '0.03';
 
-require RT::User;
-package RT::User;
-
 use Digest::MD5 qw(md5_hex);
 use LWP::UserAgent;
+
+package RT::User;
 
 sub GravatarUrl {
     my $self = shift;
