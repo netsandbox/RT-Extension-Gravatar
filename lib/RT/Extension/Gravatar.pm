@@ -13,7 +13,7 @@ use LWP::UserAgent;
 
 sub GravatarUrl {
     my $self = shift;
-    my $size = shift || 80;
+    my $size = shift;
 
     my $email = $self->EmailAddress || '';
     return unless length $email;
@@ -23,7 +23,8 @@ sub GravatarUrl {
         : 'http://gravatar.com/avatar/';
     
     $url .= md5_hex(lc $email);
-    $url .= "?s=" . $size;
+    $url .= "?s=" . $size
+        if $size;
 
     return $url;
 }
