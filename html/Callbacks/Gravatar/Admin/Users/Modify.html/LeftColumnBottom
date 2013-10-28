@@ -1,5 +1,5 @@
 <&| /Widgets/TitleBox, title => loc('Gravatar') &>
-<div id="gravatar">
+<div class="gravatar">
 <& /Elements/Gravatar, UserObj => $UserObj &>
 </div>
 </&>

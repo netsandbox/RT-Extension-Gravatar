@@ -1,4 +1,4 @@
-<div id="gravatar" style="float: left;">
+<div class="gravatar" style="float: left;">
 <& /Elements/Gravatar, UserObj => $User &>
 </div>
 <%INIT>
