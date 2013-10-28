@@ -1,5 +1,12 @@
 Revision history for Perl module RT::Extension::Gravatar
 
+1.00 2013-10-28
+
+    * use 'class' instead of 'id' attribute for the Gravatar div
+    * minor code improvements
+    * show Gravatar on User Summary page for RT 4.2
+    * update Module::Install for RT 4.2 compatibility
+
 0.03 2011-05-20
 
     * update Module::Install for RT 4.0 compatibility

@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 de5fa76f5fb64d00748fd53c9398d66f4e406986 Changes
+SHA1 1a9a59aec1299d4dc9cd94b73126be564ecdc5f5 MANIFEST
+SHA1 1858b9b59492447fdd56c42bfc89004cf67a4b82 MANIFEST.SKIP
+SHA1 352041d9d2996b111c083eda08cf95e97dee695b META.yml
+SHA1 faee34fce86338adf7bcda333b454a19a25fcf90 Makefile.PL
+SHA1 08288213ec330e31995959df5fd7d7590df0a152 README
+SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/Admin/Users/Modify.html/LeftColumnBottom
+SHA1 36bf645d575a006875b5b3576c5131778226c28f html/Callbacks/Gravatar/Ticket/Elements/ShowRequestor/AboutThisUser
+SHA1 7a5f380add9ed8865b721a6066da94428bc98ff3 html/Callbacks/Gravatar/User/Elements/Portlets/ExtraInfo/BeforeExtraInfo
+SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/User/Prefs.html/FormLeftColumn
+SHA1 2595fb82cb2d44d1acb3b4c913f9a13e82ccb6df html/Elements/Gravatar
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 6bcbcc04d582db24cfdc4af291bbc264531c0df7 lib/RT/Extension/Gravatar.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlJuDXYACgkQTwqgb7Yxh3ziMQCgjXK/F0rQZO6XG/EvjR1nynQq
+GKYAn1KxETVwf1t2XAqtM1tyFNw0Z2xw
+=2Wj9
+-----END PGP SIGNATURE-----

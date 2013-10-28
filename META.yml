@@ -28,4 +28,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/cloos/RT-Extension-Gravatar
-version: 0.03
+version: 1.00
