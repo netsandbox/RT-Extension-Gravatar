@@ -18,7 +18,7 @@ INSTALLATION
 
             Set(@Plugins, qw(RT::Extension::Gravatar));
 
-        or add "RT::Extension::Gravatar" to your existing @Plugins line.
+        or add RT::Extension::Gravatar to your existing @Plugins line.
 
     Clear your mason cache
             rm -rf /opt/rt4/var/mason_data/obj/*
