@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,32 +14,35 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 de5fa76f5fb64d00748fd53c9398d66f4e406986 Changes
-SHA1 1a9a59aec1299d4dc9cd94b73126be564ecdc5f5 MANIFEST
+SHA1 4594df018fb0629d5bd07104d2512bd587ef0517 Changes
+SHA1 11b9d4425842b055b59051bbccac0321a6ee20f1 MANIFEST
 SHA1 1858b9b59492447fdd56c42bfc89004cf67a4b82 MANIFEST.SKIP
-SHA1 352041d9d2996b111c083eda08cf95e97dee695b META.yml
-SHA1 faee34fce86338adf7bcda333b454a19a25fcf90 Makefile.PL
-SHA1 08288213ec330e31995959df5fd7d7590df0a152 README
+SHA1 92e7b9901f9da7bd737f81b4f5a25115a477559f META.yml
+SHA1 a8f780f2f2a22f3f624ecf99ff52beab5449e950 Makefile.PL
+SHA1 d81aaf104e993a5adc18a57762fce7a9636eb0aa README
 SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/Admin/Users/Modify.html/LeftColumnBottom
 SHA1 36bf645d575a006875b5b3576c5131778226c28f html/Callbacks/Gravatar/Ticket/Elements/ShowRequestor/AboutThisUser
 SHA1 7a5f380add9ed8865b721a6066da94428bc98ff3 html/Callbacks/Gravatar/User/Elements/Portlets/ExtraInfo/BeforeExtraInfo
 SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/User/Prefs.html/FormLeftColumn
 SHA1 2595fb82cb2d44d1acb3b4c913f9a13e82ccb6df html/Elements/Gravatar
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 40df6f8d889b52eef379f04af6227f9302b23bf9 inc/Module/Install/RTx.pm
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 bd2183c72617105d0b65f3ef81d013bf4af337d6 inc/Module/Install/Include.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 acbf148a1e6067cc677c89da2bfe1ae4b0b1e01b inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 6bcbcc04d582db24cfdc4af291bbc264531c0df7 lib/RT/Extension/Gravatar.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 4afcd32d7a733dcf0d21f2cda456fed47012cd9c inc/YAML/Tiny.pm
+SHA1 3b39cfb54fdbc374793e4c8581a8cdf3062fb2c8 inc/unicore/Name.pm
+SHA1 ebb6decc34ca3d7a5e2a77f3850ab648c35f9bdf lib/RT/Extension/Gravatar.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
 
-iEYEARECAAYFAlJuDXYACgkQTwqgb7Yxh3ziMQCgjXK/F0rQZO6XG/EvjR1nynQq
-GKYAn1KxETVwf1t2XAqtM1tyFNw0Z2xw
-=2Wj9
+iEYEARECAAYFAlSYjMQACgkQTwqgb7Yxh3z6DQCfdA8J3yuxWeMhvs51K6Exjmx/
+I+cAoLefnICimZmxC7bypda2qtEIDI5S
+=InA7
 -----END PGP SIGNATURE-----
