@@ -1,5 +1,5 @@
 ---
-abstract: 'Adds gravatar images to rt'
+abstract: 'Displays Gravatar images within RT'
 author:
   - 'Christian Loos <cloos@netsandbox.de>'
 build_requires:

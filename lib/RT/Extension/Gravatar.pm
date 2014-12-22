@@ -45,11 +45,11 @@ sub HasGravatar {
 
 =head1 NAME
 
-RT::Extension::Gravatar - Adds gravatar images to rt
+RT::Extension::Gravatar - Displays Gravatar images within RT
 
 =head1 DESCRIPTION
 
-This Plugin adds an gravatar image to the following places:
+This Plugin displays Gravatar image on the following pages:
 
 =over
 
@@ -67,15 +67,21 @@ This Plugin adds an gravatar image to the following places:
 
 =over
 
-=item perl Makefile.PL
+=item C<perl Makefile.PL>
 
-=item make
+=item C<make>
 
-=item make install
+=item C<make install>
 
-=item Edit your /opt/rt4/etc/RT_SiteConfig.pm
+May need root permissions
 
-Add this line:
+=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
+
+If you are using RT 4.2 or greater, add this line:
+
+    Plugin('RT::Extension::Gravatar');
+
+For RT 4.0, add this line:
 
     Set(@Plugins, qw(RT::Extension::Gravatar));
 
