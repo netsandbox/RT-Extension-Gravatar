@@ -111,12 +111,13 @@ Return true if the user has an gravatar image.
 
 Christian Loos <cloos@netsandbox.de>
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
  
-Copyright (C) 2010-2013, Christian Loos.
+This software is Copyright (C) 2010-2014, Christian Loos.
  
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software, licensed under:
+
+  The GNU General Public License, Version 2, June 1991
 
 =head1 SEE ALSO
 
