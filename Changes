@@ -1,5 +1,9 @@
 Revision history for RT::Extension::Gravatar
 
+2.00 2016-03-11
+ - avoid duplicate callback code
+ - RT 4.4 compatibility
+
 1.01 2014-12-22
  - update license from Perl to GPLv2 to match RT license
  - update Module::Install

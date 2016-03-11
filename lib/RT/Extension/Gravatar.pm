@@ -4,7 +4,7 @@ use 5.008003;
 use strict;
 use warnings;
 
-our $VERSION = '1.01';
+our $VERSION = '2.00';
 
 package RT::User;
 
@@ -17,11 +17,11 @@ sub GravatarUrl {
 
     my $email = $self->EmailAddress || '';
     return unless length $email;
-    
+
     my $url = ($ENV{'HTTPS'}||'') eq 'on'
         ? 'https://secure.gravatar.com/avatar/'
         : 'http://gravatar.com/avatar/';
-    
+
     $url .= md5_hex(lc $email);
     $url .= "?s=" . $size
         if $size;
@@ -39,7 +39,7 @@ sub HasGravatar {
 
     my $ua = LWP::UserAgent->new;
     my $response = $ua->get($url);
-    
+
     return $response->is_success;
 }
 
@@ -112,9 +112,9 @@ Return true if the user has an gravatar image.
 Christian Loos <cloos@netsandbox.de>
 
 =head1 LICENSE AND COPYRIGHT
- 
-This software is Copyright (C) 2010-2014, Christian Loos.
- 
+
+This software is Copyright (C) 2010-2016, Christian Loos.
+
 This is free software, licensed under:
 
   The GNU General Public License, Version 2, June 1991

@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.73.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -12,37 +12,46 @@ the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
 
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
+Hash: SHA512
 
-SHA1 4594df018fb0629d5bd07104d2512bd587ef0517 Changes
-SHA1 11b9d4425842b055b59051bbccac0321a6ee20f1 MANIFEST
-SHA1 1858b9b59492447fdd56c42bfc89004cf67a4b82 MANIFEST.SKIP
-SHA1 92e7b9901f9da7bd737f81b4f5a25115a477559f META.yml
-SHA1 a8f780f2f2a22f3f624ecf99ff52beab5449e950 Makefile.PL
-SHA1 d81aaf104e993a5adc18a57762fce7a9636eb0aa README
-SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/Admin/Users/Modify.html/LeftColumnBottom
+SHA1 be8ebdb0e796e13acfcb372162467d3326b17250 Changes
+SHA1 18b3d8df31ae26ec6382fd2a170d2b91862cd71e MANIFEST
+SHA1 b4a82373082941d0677612c95722c124d685ae34 META.yml
+SHA1 c109285a762c2f6c042771f1e1064adb2a30d93d Makefile.PL
+SHA1 8be9a9c6cf359bf95dbab46ec6bfd0a2f1155128 README
+SHA1 8cd57101d252a96d050dc1add5aa24c057609697 html/Callbacks/Gravatar/Admin/Users/Modify.html/LeftColumnBottom
+SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/Prefs/AboutMe.html/FormLeftColumn
 SHA1 36bf645d575a006875b5b3576c5131778226c28f html/Callbacks/Gravatar/Ticket/Elements/ShowRequestor/AboutThisUser
 SHA1 7a5f380add9ed8865b721a6066da94428bc98ff3 html/Callbacks/Gravatar/User/Elements/Portlets/ExtraInfo/BeforeExtraInfo
-SHA1 4238db911108735bf9faa724c858586e71804012 html/Callbacks/Gravatar/User/Prefs.html/FormLeftColumn
+SHA1 26b822ecd087e1a6002c10cedad75a90285c5978 html/Callbacks/Gravatar/User/Prefs.html/FormLeftColumn
 SHA1 2595fb82cb2d44d1acb3b4c913f9a13e82ccb6df html/Elements/Gravatar
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 bd2183c72617105d0b65f3ef81d013bf4af337d6 inc/Module/Install/Include.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
-SHA1 acbf148a1e6067cc677c89da2bfe1ae4b0b1e01b inc/Module/Install/RTx.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 3e43ac0f1912c7d202dc102f6c31ad96fbf3a044 inc/Module/Install/Include.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
+SHA1 2e6d9ed3ead010223a770841a5944e7ae5d1dc7a inc/Module/Install/RTx.pm
 SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
-SHA1 4afcd32d7a733dcf0d21f2cda456fed47012cd9c inc/YAML/Tiny.pm
-SHA1 3b39cfb54fdbc374793e4c8581a8cdf3062fb2c8 inc/unicore/Name.pm
-SHA1 ebb6decc34ca3d7a5e2a77f3850ab648c35f9bdf lib/RT/Extension/Gravatar.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
+SHA1 101dee5d09fc4f3cee4f866782c08409e85b7ec4 inc/YAML/Tiny.pm
+SHA1 4a03205874f1a675fcf849ebb61c62f3dd38290a lib/RT/Extension/Gravatar.pm
 -----BEGIN PGP SIGNATURE-----
 
-iEYEARECAAYFAlSYjMQACgkQTwqgb7Yxh3z6DQCfdA8J3yuxWeMhvs51K6Exjmx/
-I+cAoLefnICimZmxC7bypda2qtEIDI5S
-=InA7
+iQIbBAEBCgAGBQJW4sNhAAoJEKq6dEXbZ7ZrO80P+NLL2Wz0gaWS0V4avQfqy1n4
+NqMpCNxIlC4NSvhyyWS8/iqp+OAWyhCM4W0YXTv2SieltU0IGhauBZEh8UQXTWPs
+1TTEHh7J0vSuptcXVXjz/17ZpOULEC4HbZ04LhzVKhFBRMkf42V98CrIiPhEPcWS
+CJQn2gLioapDlQ+UJ/O9HYGQkK62+HT40vLzeBkdj1LxX2goNlkbM4niZl16wiLm
+H4RC/DmxS/ZZ+JgaER0OmAywDEl9jtCiKGOqvcPkT11t8S0SxmW6ycYlISH4zBqs
+OLYDcAFoZx0cJwDbiUYvnHBYdeVU5Uo16Dnui20uWxHxVwKXQxHKkfClgPeAEoRR
+01UV7qu6aV7WhnSV/BlHMeA0Eyc9yAK0xDiqNEh1Sk2+Y3qK7DDdlAeinNBMWjKn
+BXrm46VFQjfqQv3KMJ7F1CzvtMsBYiROZQXz1J0DImq8ptqaYnrHIye0EbhPhj19
+/RhEq3uf4Dupm7IMAlzxB5tt+9Z8PLgfo4I9BJgFkhEsr/n9rf+2XJWjNv7kAWxK
+tG2/B6/H3SE8YfgPHD9SeG46RCPuXQf7pPPr1bum2zc6VxqqURHJMpRkhaiERMiY
+ZRCEtjMxyAei5AOUhVBdrZAVM6kFiBVQKs9Y4/YWMDHPAsQt+JfvQaaiiWrkClXx
+M/m86DE+O1JmQQKwyqQ=
+=hRis
 -----END PGP SIGNATURE-----
