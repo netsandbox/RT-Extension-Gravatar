@@ -18,6 +18,7 @@ no_index:
   directory:
     - html
     - inc
+    - xt
   package:
     - RT::User
 requires:
