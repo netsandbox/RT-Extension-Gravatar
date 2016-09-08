@@ -1,5 +1,10 @@
 Revision history for RT::Extension::Gravatar
 
+2.01 2016-09-08
+ - update Module::Install
+ - load Gravatar always by https
+ - improve Gravatar image position
+
 2.00 2016-03-11
  - avoid duplicate callback code
  - RT 4.4 compatibility
