@@ -18,13 +18,9 @@ sub GravatarUrl {
     my $email = $self->EmailAddress || '';
     return unless length $email;
 
-    my $url = ($ENV{'HTTPS'}||'') eq 'on'
-        ? 'https://secure.gravatar.com/avatar/'
-        : 'http://gravatar.com/avatar/';
-
-    $url .= md5_hex(lc $email);
-    $url .= "?s=" . $size
-        if $size;
+    my $url  = 'https://gravatar.com/avatar/';
+       $url .= md5_hex(lc $email);
+       $url .= "?s=" . $size if $size;
 
     return $url;
 }
