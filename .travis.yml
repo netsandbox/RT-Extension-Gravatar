@@ -4,6 +4,7 @@ services: docker
 env:
   - RT_VERSION=4.2
   - RT_VERSION=4.4
+  - RT_VERSION=5.0
 
 before_install:
   - env | sort
