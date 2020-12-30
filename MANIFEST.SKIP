@@ -66,6 +66,5 @@
 #!end included /usr/share/perl/5.28/ExtUtils/MANIFEST.SKIP
 
 \B\.github\b
-\B\.travis\.yml\b
 \bxt/lib/RT/Extension/.+/Test.pm$
 \bxt/tmp\b
